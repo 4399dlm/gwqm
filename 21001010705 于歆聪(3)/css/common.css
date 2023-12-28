@@ -1,0 +1,227 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,form,dl,dd,dt{
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:visited{
+    color: #000;
+}
+img{
+    border: none;
+    display: block;
+}
+
+body{
+    min-width: 320px;
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+:root{
+    font-size: 5.6vw;
+}
+#header{
+    display: flex;
+    background-color: #c00;
+    padding: 6px 12px;
+}
+.search{
+    z-index: 12;
+}
+.search{
+    border-radius: 20px;
+    background-color: #fff;
+    flex-grow: 1;
+    display: flex;
+}
+
+.cover{
+    background-color: #000000;
+    width: 30rem;
+    height: 50rem;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -4rem;
+    z-index: 11;
+    opacity: 0.8;
+}
+.t-title {
+    height: 32px;
+}
+
+.t-title span {
+    float: left;
+    width: 24%;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+}
+
+.tc {
+    border-top: none;
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.t-title .cur {
+    margin-bottom: -1px;
+    background-color: #fff;
+    color: #c00;
+    font-weight: bold;
+}
+#search{
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    margin-right: 20px;
+}
+.icon-sousuo{
+    margin: 12px 11px;
+    font-size: 14px;
+}
+.wangyi{
+    margin: 6px 7px;
+}
+.btn{
+    margin: 6px 7px;
+}
+.icon-ef-redian-gongju{
+    margin: 6px 7px;
+    font-size: 20%;
+}
+.icon{
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+.bnav{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 9;
+    background-color: #eee;
+}
+body{
+    margin-bottom: 50px;
+}
+.bnav>ul{
+    display: flex;
+}
+.bnav li{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+.bnav div{
+    position: relative;
+}
+.bnav svg{
+    font-size: 40px;
+    margin: 3px 0;
+}
+.bnav p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+    text-align: center;
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    position: absolute;
+    right: -3px;
+    top: 3px;
+    background-color: #c00;
+}
+.jlist li{
+    display: flex;
+    border-bottom: 1px dotted #ccc;
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+    border-radius: 10px;
+}
+.ilist li{
+    display: flex;
+    border-bottom: 1px dotted #ccc;
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+}
+.ilist img{
+    width: 30%;
+    margin: 20px;
+}
+.txt{
+    margin-left: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+.txt h3{
+    font-size: 14px;
+    line-height: 33px;
+    width: 100%;
+}
+.txt a{
+    color: #030;
+}
+.txt span{
+    font-size: 12px;
+    line-height: 22px;
+    color: #999;
+}
+.author{
+    margin-left: 8px;
+}
+.time{
+    margin-right: 8px;
+    flex-grow: 1;
+    text-align: right;
+}
+.t-title {
+    height: 32px;
+}
+
+.t-title span {
+    float: left;
+    width: 14%;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+}
+
+.show {
+    display: block;
+}
+.t-title .cur {
+    margin-bottom: -1px;
+    background-color: #fff;
+    color: #c00;
+    font-weight: bold;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+.glist li{
+    display: flex;
+    border-bottom: 1px dotted #ccc;
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+}
+.glist img{
+    width: 30%;
+    margin: 20px;
+}

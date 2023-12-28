@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no, viewport-fit=cover">
+    <title>21001010705 于歆聪 网易新闻</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./字体图标/iconfont.css">
+    <script src="./字体图标/iconfont.js"></script>
+    <script src="./js/tab.js"></script>
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+</head>
+<body>
+    <header id="header">
+        <div class="wangyi">
+            <span class="iconfont icon-wangyi"></span>
+        </div>
+        <div class="search">
+            <span class="iconfont icon-sousuo"></span>
+            <input type="text" name="search" id="search" placeholder="春晚回应吉祥物被质疑">
+        </div>
+        <div class="btn">
+            <a href="#">
+                <span class="iconfont icon-ef-redian-gongju"></span>
+            </a>
+            <a href="#">
+                <span class="iconfont icon-xiaoxi-zhihui"></span>
+            </a>         
+        </div>
+    </header>
+
+    <main id="main">
+         <!-- style="display: none;" -->
+        <div class="cover" style="display: none;" ></div>
+        <div class="tab">
+            <div class="t-title">
+                <span>关注</span>
+                <span class="cur">头条</span>
+                <span>视频</span>
+                <span>附近</span>
+                <span>娱乐</span>
+                <span>体育</span>
+                <span>要闻</span>
+            </div>
+            <div class="tc">1</div>
+            <div class="tc show">
+                <ul class="jlist">
+                </ul>
+            
+
+                <ul class="ilist">
+                </ul>
+                <script>
+                var jarr=[{
+                    zd:"神贴出没",
+                    img:"https://z1.ax1x.com/2023/12/07/pigBojg.jpg",
+                    link:"./新闻.html",
+                    title:"俄罗斯总统选举将于2024年3月17日举行",
+                    author:"CCTV国际时讯",
+                    gen:"832跟帖"
+                },{
+                zd:"跟帖飙升",
+                img:"https://z1.ax1x.com/2023/12/07/pigDmvD.jpg",
+                img:"https://z1.ax1x.com/2023/12/07/pigDMbd.jpg",
+                img:"https://z1.ax1x.com/2023/12/07/pigD1UI.jpg",
+                link:"http://ltaaa.com",
+                title:"日本知名手办公司：顺丰暂停揽收手办！顺丰紧急回应",
+                author:"每日经济新闻",
+                gen:"4247跟帖"
+            },{
+                zd:"跟帖飙升",
+                img:"https://z1.ax1x.com/2023/12/13/pifU8xS.jpg",
+                link:"http://ltaaa.com",
+                title:"周海媚抢救病例疑被泄露 官方称正在调查",
+                author:"极目新闻",
+                gen:"6849跟帖"
+            },{
+                zd:"本地",
+                img:"https://z1.ax1x.com/2023/12/13/pifUBGV.jpg",
+                link:"http://ltaaa.com",
+                title:"强寒潮来袭！辽宁有暴雪大暴雪 气温下降8-12℃",
+                author:"天气",
+                gen:"23跟帖"
+            }
+            ];
+            var jlist=document.querySelector(".ilist");
+        
+                    for (let v of jarr) {
+                        let li = document.createElement("li");
+                        li.innerHTML = `
+                                          
+                    <div class="txt">
+                        <h3><a href="${v.link}">${v.title}</a></h3>
+                        <span class="zd">${v.zd}</span>
+                        <span class="author">${v.author}</span>
+                        <span class="gen">${v.gen}</span>
+                             
+                    </div>
+                    <img src="${v.img}"> 
+                    `;
+                    jlist.appendChild(li);
+                    }
+                    var jlist=document.querySelector(".ilist");
+            </script>
+          
+                </div>
+                <div class="tc"></div>
+                <div class="tc"></div>
+                <div class="tc">
+                    <div class="swiper S2">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <img src="https://s11.ax1x.com/2023/12/19/piIfbuD.jpg">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="https://s11.ax1x.com/2023/12/19/piIfqDe.jpg">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./img/3.jpg">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./img/4.jpg">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./img/5.jpg">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./img/6.jpg">
+                          </div>
+                        </div>
+                        <script src="./js/swiper-bundle.min.js"></script>
+                            <script>
+                                var swiper2 = new Swiper(".S2", {
+                                        slidesPerView: 1,
+                                        spaceBetween: 5,
+                                    });
+                            </script>
+                      </div>
+
+                      <ul class="glist">
+                    </ul>
+                    <script>
+                    var jarr=[{
+                        zd:"娱乐",
+                        img:"https://s11.ax1x.com/2023/12/19/piIRxZd.jpg",
+                        link:"http://ltaaa.com",
+                        title:"难以置信！东方小孙和明明一上场，满屏都是“加油”",
+                        author:"杂谈哥闲谈",
+                        gen:"4311跟帖"
+                    },{
+                    zd:"娱乐",
+                    img:"https://s11.ax1x.com/2023/12/19/piIWqkn.jpg",
+                    link:"http://ltaaa.com",
+                    title:"日金刚狼休杰克曼曝新恋情，恋上48岁有夫之妇？在百老汇是公开秘密",
+                    author:"新金牌娱乐观察家",
+                    gen:"362跟帖"
+                },{
+                    zd:"娱乐",
+                    img:"https://s11.ax1x.com/2023/12/19/piIWjpV.jpg",
+                    link:"http://ltaaa.com",
+                    title:"混血天后Rio：从艾薇界巅峰到商场女强人，他如何再创传奇？",
+                    author:"零点娱评",
+                    gen:"56跟帖"
+                },{
+                    zd:"体育",
+                    img:"https://s11.ax1x.com/2023/12/19/piIWx6U.jpg",
+                    link:"http://ltaaa.com",
+                    title:"张帅误判退赛女主道歉：无意冒犯任何人",
+                    author:"ALL体育",
+                    gen:"6172跟帖"
+                }
+                ];
+                var jlist=document.querySelector(".glist");
+            
+                        for (let v of jarr) {
+                            let li = document.createElement("li");
+                            li.innerHTML = `
+                                              
+                        <div class="txt">
+                            <h3><a href="${v.link}">${v.title}</a></h3>
+                            <span class="zd">${v.zd}</span>
+                            <span class="author">${v.author}</span>
+                            <span class="gen">${v.gen}</span>
+                                 
+                        </div>
+                        <img src="${v.img}"> 
+                        `;
+                        jlist.appendChild(li);
+                        }
+                </script>
+
+                </div>
+                <div class="tc"></div>
+                <div class="tc"></div>
+            </div>
+        <script>
+		var tabs = document.getElementsByClassName("tab");
+		console.log(tabs)
+		for (var i = 0; i < tabs.length; i++) {
+			tab(tabs[i]);
+		}
+	</script>
+    </main>
+
+    <nav class="bnav">
+        <ul>
+            <li>
+                <div>
+                    <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-xinwen"></use>
+                    </svg>
+                    <p>首页</p>
+                    <span class="dot"></span>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-shipin"></use>
+                    </svg>
+                    <p>视频</p>
+                    <span class="dot"></span>
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <div>
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-fabu"></use>
+                    </svg>
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="./社区.html">
+                <div>
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-shequ-xianxing"></use>
+                    </svg>
+                    <p>社区</p>
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="./我的.html">
+                <div>
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-quanzi"></use>
+                    </svg>
+                    <p>我的</p>
+                </div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    
+
+    <section id="ad"></section>
+    <aside></aside>
+    <nav id="snav"></nav>
+    <nav id="id"></nav>
+    <footer></footer>
+    <script src="./js/遮罩.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>

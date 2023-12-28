@@ -1,0 +1,250 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,form,dl,dd,dt{
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+img{
+    border: none;
+    display: block;
+}
+
+body{
+    min-width: 320px;
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+:root{
+    font-size: 5.6vw;
+}
+
+
+#top{
+    display: flex;
+    padding: 10px 12px;
+    justify-content: space-between;
+}
+a.icon-shezhi{
+    font-size: 20px;
+}
+a.icon-xiaoxi-zhihui{
+    font-size: 20px;
+}
+a.icon-weidenglu-touxiang{
+    float: left;
+    padding: 10px 12px;
+    font-size: 60px;
+    color: #cc3333;
+}
+.yh{
+    font-size: 20px;
+    padding: 30px 20px;
+}
+.txt1 span{
+    font-size: 12px;
+    line-height: 23px;
+    padding: 0 10px;
+}
+span.iconfont{
+    float: left;
+    margin-left: 5px;
+    font-size: 20px;
+    color: #fa8f03;
+}
+
+.main{
+    clear: both;
+}
+.wd{
+    float: left;
+    width: 24%;
+    margin-left: 15px;
+    margin-top: 17px;
+}
+a.icon-guanzhu{
+    font-size: 25px;
+    margin-left: 17px;
+    color: #0368ff;
+}
+.wd p{
+    font-size: 15px;
+    color: #000;
+}
+.qz{
+    float: left;
+    width: 24%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+a.icon-wodequanzi{
+    font-size: 30px;
+    margin-left: 17px;
+    color: #ff6803;
+}
+.qz p{
+    font-size: 15px;
+    color: #000;
+}
+main{
+    float: left;
+}
+.rw{
+    float: left;
+    width: 24%;
+    margin-top: 15px;
+}
+.rw p{
+    font-size: 15px;
+    color: #000;
+}
+.sc{
+    float: left;
+    width: 24%;
+    margin-top: 15px;
+}
+.sc p{
+    font-size: 15px;
+    color: #000;
+}
+a.icon-renwuzhongxin1{
+    font-size: 30px;
+    margin-left: 17px;
+    color: #ebfc04;
+}
+a.icon-shangcheng1{
+    font-size: 30px;
+    margin-left: 17px;
+    color: #fc0303;
+}
+
+.zj{
+    clear: both;
+}
+.gen{
+    float: left;
+    margin-left: 22px;
+}
+.fen{
+    float: left;
+    margin-left: 21px;
+}
+.shou{
+    float: left;
+    margin-left: 20px;
+}
+.ls{
+    float: left;
+    margin-left: 19px;
+    margin-bottom: 15px;
+}
+.zj>div{
+    width: 19%;
+}
+.sz{
+    margin-left: 16px;
+}
+.main{
+    clear: both;
+}
+.wd{
+    float: left;
+    width: 24%;
+    margin-left: 15px;
+}
+a.icon-guanzhu{
+    font-size: 25px;
+    margin-left: 17px;
+    color: #0368ff;
+}
+.wd p{
+    font-size: 15px;
+    color: #000;
+}
+.qz{
+    float: left;
+    width: 24%;
+}
+a.icon-wodequanzi{
+    font-size: 30px;
+    margin-left: 17px;
+    color: #ff6803;
+}
+.qz p{
+    font-size: 15px;
+    color: #000;
+}
+a.icon-jiangbei{
+    font-size: 25px;
+    margin-left: 17px;
+}
+a.icon-dangan{
+    font-size: 25px;
+    margin-left: 17px;
+}
+a.icon-shujutongji{
+    font-size: 25px;
+    margin-left: 17px;
+}
+a.icon-caogaoxiang{
+    font-size: 25px;
+    margin-left: 17px;
+}
+
+.gongneng li {
+    clear: both;
+    border-bottom: 1px dashed #000;
+    font-style: 20px;
+    line-height: 30px;
+    margin: 15px 20px;
+  }
+
+.icon{
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+.bnav{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 9;
+    background-color: #eee;
+}
+.bnav>ul{
+    display: flex;
+}
+.bnav li{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+.bnav div{
+    position: relative;
+}
+.bnav svg{
+    font-size: 40px;
+    margin: 3px 0;
+}
+.bnav p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+    text-align: center;
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    position: absolute;
+    right: -3px;
+    top: 3px;
+    background-color: #c00;
+}
